@@ -7,6 +7,11 @@ const nextConfig: NextConfig = {
   },
   cacheComponents: true,
   partialPrefetching: true,
+
+  // Matikan Dev Indicator / Insight Overlay di bottom-left localhost
+  devIndicators: false,
+  
+
   turbopack: {
     rules: {
       "*.css": {
