@@ -20,7 +20,7 @@ export function Mql5SignalsSection({
       minDeposit: '$3,000',
       leverage: '1:200',
       features: [
-        '100% Menggunakan Robot Terprogram',
+        'Sistem Analisis & Eksekusi Profesional',
         'Perlindungan Stop-Loss Ketat',
         'Setup Instan via MQL5 Platform',
       ],
@@ -148,7 +148,7 @@ export function Mql5SignalsSection({
               </div>
 
               {/* Price & CTA Button */}
-              <div className="pt-6 border-t border-gray-800/80 mt-6 space-y-4">
+          {/* <div className="pt-6 border-t border-gray-800/80 mt-6 space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="text-xs text-gray-400">MQL5 Price:</span>
                   <span className="text-lg font-black text-white">{item.price}</span>
@@ -163,7 +163,7 @@ export function Mql5SignalsSection({
                   <span>Langganan di MQL5</span>
                   <ExternalLink className="w-4 h-4" />
                 </a>
-              </div>
+              </div> */}
             </div>
           );
         })}
